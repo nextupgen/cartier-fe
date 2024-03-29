@@ -1,0 +1,23 @@
+name: Cartier Frontend
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest  # Or a preferred OS image
+
+    steps:
+      - uses: actions/checkout@v3  # Checkout your code from Git
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  # Replace with your desired version
+
+      - name: Install dependencies
+        run: yarn install  # Or yarn install
+
+      - name: Build the app
+        run: yarn build  # Or yarn build (Replace with your build command)
