@@ -3,6 +3,7 @@ import CATEGORIES from "./CATEGORIES_DATA.json";
 import Grid from "@mui/material/Grid";
 import { MenuItem } from "../../../modal/MenuItem";
 import SubCategoriesTooltip from "./SubCategoriesTooltip";
+import { Typography } from "@mui/material";
 const CategoriesTooltip = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [data, setData] = useState<Array<MenuItem>>([]);
@@ -38,7 +39,7 @@ const CategoriesTooltip = () => {
         >
           {data &&
             data.map((item: MenuItem) => (
-              <Grid item>
+              <Grid item className="HeaderItem" sx={{ p: 2 }}>
                 <a
                   href={item.url}
                   onMouseEnter={() => onMouseOver(item.children || [])}

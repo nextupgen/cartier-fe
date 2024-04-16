@@ -20,7 +20,7 @@ const SubCategoriesTooltip = ({ data }: SubCategoriesTooltipType) => {
       >
         {data &&
           data.map((item: MenuItem) => (
-            <Grid item>
+            <Grid item className="HeaderItem">
               <a
                 href={item.url}
                 onMouseOver={() => onMouseOver(item.children || [])}
@@ -38,7 +38,7 @@ const SubCategoriesTooltip = ({ data }: SubCategoriesTooltipType) => {
           alignItems="center"
         >
           {childrenData.map((item: MenuItem) => (
-            <Grid item sx={{ maxWidth: 120 }} alignItems="center">
+            <Grid item sx={{ maxWidth: 120, p: 2 }} alignItems="center">
               <Box sx={{ p: 2 }} display="flex" alignItems="center">
                 <img src={react} alt={item.title} height={20} width={20} />
               </Box>
