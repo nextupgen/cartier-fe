@@ -10,7 +10,7 @@ const CategoriesTooltip = () => {
   const onMouseOver = (children: Array<MenuItem>) => {
     setChildrenData(children);
   };
-  const onMouseOut = () => {
+  const onMouseLeave = () => {
     setChildrenData([]);
   };
   useEffect(() => {
@@ -28,7 +28,7 @@ const CategoriesTooltip = () => {
     fetchData();
   }, []);
   return (
-    <div id="Header" onMouseOut={() => onMouseOut()}>
+    <div id="Header" onMouseLeave={() => onMouseLeave()}>
       {!loading && (
         <Grid
           container

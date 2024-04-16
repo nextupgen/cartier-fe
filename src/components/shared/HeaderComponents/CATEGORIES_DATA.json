@@ -17,21 +17,18 @@
       {
         "title": "LATEST COLECTION",
         "children": [
-          { "title": "INDOMPTABLES BY CARTIER", "url": "#", "img": "#" },
-          { "title": "PANTHER", "url": "#", "img": "#" },
-          { "title": "FLORA AND FAUNA", "url": "#", "img": "#" },
-          { "title": "ARCHITECTURE AND PURITY", "url": "#", "img": "#" },
-          { "title": "GEOMETRY AND CONTRASTS", "url": "#", "img": "#" },
-          { "title": "FINE JEWELLERY WATCHES", "url": "#", "img": "#" }
+          { "title": "BEAUTÉS DU MONDE", "url": "#", "img": "#" },
+          { "title": "COUSSIN DE CARTIER", "url": "#", "img": "#" },
+          { "title": "INDOMPTABLES DE CARTIER", "url": "#", "img": "#" }
         ]
       },
       {
         "title": "MARKER OF STYLE",
         "children": [
-          { "title": "INDOMPTABLES BY CARTIER", "url": "#", "img": "#" },
-          { "title": "PANTHER", "url": "#", "img": "#" },
-          { "title": "FLORA AND FAUNA", "url": "#", "img": "#" },
           { "title": "ARCHITECTURE AND PURITY", "url": "#", "img": "#" },
+          { "title": "GEOMETRY & CONTRASTS", "url": "#", "img": "#" },
+          { "title": "FLORA AND FAUNA", "url": "#", "img": "#" },
+          { "title": "CULTURAL DIALOGUES", "url": "#", "img": "#" },
           { "title": "GEOMETRY AND CONTRASTS", "url": "#", "img": "#" },
           { "title": "FINE JEWELLERY WATCHES", "url": "#", "img": "#" }
         ]
