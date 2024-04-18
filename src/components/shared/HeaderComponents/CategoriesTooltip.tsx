@@ -3,7 +3,6 @@ import CATEGORIES from "./CATEGORIES_DATA.json";
 import Grid from "@mui/material/Grid";
 import { MenuItem } from "../../../modal/MenuItem";
 import SubCategoriesTooltip from "./SubCategoriesTooltip";
-import { Typography } from "@mui/material";
 const CategoriesTooltip = () => {
   const [loading, setLoading] = useState<boolean>(true);
   const [data, setData] = useState<Array<MenuItem>>([]);
